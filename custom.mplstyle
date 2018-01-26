@@ -1,0 +1,86 @@
+# Author: Mikael Koutero, replicated styles from FiveThirtyEight.com
+# See https://www.dataorigami.net/blogs/fivethirtyeight-mpl
+
+lines.linewidth: 3
+lines.solid_capstyle: butt
+
+legend.fancybox: true
+legend.frameon: false
+
+axes.prop_cycle: cycler('color', ['7F3C8D', '11A579', '3969AC', 'F2B701', 'E73F74', '80BA5A', 'E68310', '008695', 'CF1C90', 'F97B72'])
+axes.facecolor: none
+axes.labelsize: large
+axes.axisbelow: true
+axes.grid: true
+axes.edgecolor: none
+axes.linewidth: 3.0
+axes.titlesize: x-large
+
+patch.edgecolor: f0f0f0
+patch.linewidth: 0.5
+
+svg.fonttype: path
+
+grid.linestyle: -
+grid.linewidth: 1.0
+grid.color: cbcbcb
+
+xtick.major.size: 0
+xtick.minor.size: 0
+ytick.major.size: 0
+ytick.minor.size: 0
+
+font.size:14.0
+
+savefig.edgecolor: none
+savefig.facecolor: none
+savefig.dpi: 300
+savefig.transparent : True
+
+figure.subplot.left: 0.08
+figure.subplot.right: 0.95
+figure.subplot.bottom: 0.07
+
+### Boxplot
+boxplot.notch       : False
+boxplot.vertical    : True
+boxplot.whiskers    : 1.5
+boxplot.bootstrap   : None
+boxplot.patchartist : False
+boxplot.showmeans   : False
+boxplot.showcaps    : True
+boxplot.showbox     : True
+boxplot.showfliers  : True
+boxplot.meanline    : False
+
+boxplot.flierprops.color           : k
+boxplot.flierprops.marker          : o
+boxplot.flierprops.markerfacecolor : none
+boxplot.flierprops.markeredgecolor : k
+boxplot.flierprops.markersize      : 6
+boxplot.flierprops.linestyle       : none
+boxplot.flierprops.linewidth       : 1.0
+
+boxplot.boxprops.color     : k
+boxplot.boxprops.linewidth : 1.0
+boxplot.boxprops.linestyle : -
+
+boxplot.whiskerprops.color     : k
+boxplot.whiskerprops.linewidth : 1.0
+boxplot.whiskerprops.linestyle : -
+
+boxplot.capprops.color     : k
+boxplot.capprops.linewidth : 1.0
+boxplot.capprops.linestyle : -
+
+boxplot.medianprops.color     : C1
+boxplot.medianprops.linewidth : 1.0
+boxplot.medianprops.linestyle : -
+
+boxplot.meanprops.color           : k
+boxplot.meanprops.marker          : ^
+boxplot.meanprops.markerfacecolor : C2
+boxplot.meanprops.markeredgecolor : C2
+boxplot.meanprops.markersize      :  6
+boxplot.meanprops.linestyle       : none
+boxplot.meanprops.linewidth       : 2.0
